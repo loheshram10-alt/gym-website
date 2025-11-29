@@ -1,0 +1,157 @@
+body{
+    font-family: 'Courier New', Courier, monospace ;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(../images/gym1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+    filter: invert(100%);
+}
+.left div{
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.mid{
+    display: block;
+    width: 35%;
+    margin: 30px auto;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+.navber li a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration :underline;
+    color: red;
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    display: inline-block;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: rgb(1, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(233, 16, 16);
+    color:rgb(238, 235, 235) ;
+}
+.container{
+    border: 2px solid white;
+    margin:25px 347px;
+    padding: 70px;
+    width: 40%;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.form-group input{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 294px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius: 5px;
+}
+input:hover {
+    color: white;
+    background-color: rgb(237, 143, 143);
+}
+.container h1{
+    text-align: center;
+    font-size: 40;
+}
+.container button{
+    display: block;
+    margin: 10px auto;
+    padding:5px ;
+    border: 2px solid black;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.reviews-container{
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+}
+
+.review-card{
+            width: 300px;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0,0,0,0.7);
+            border: 1px solid #ff4757;
+            backdrop-filter: blur(2px);
+        }
+
+.review-name{
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+.review-role{
+            font-size: 13px;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+.stars{
+            color: gold;
+            margin-bottom: 10px;
+        }
+
+.review-text{
+            font-size: 14px;
+            line-height: 1.4;
+        }
+ h1{
+            text-align: center;
+            margin-bottom: 10px;
+            color: red;
+        }
+
+.subtitle{
+            text-align: center;
+            color: blue;
+            margin-bottom: 30px;
+            font-size: 30px;
+            opacity: 0.8;
+        }
